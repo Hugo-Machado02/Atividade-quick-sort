@@ -51,7 +51,7 @@ public class QuickSort {
     public static void imprimirVetor(int[] array){
         for(int i = 0; i< array.length - 1; i++){
             if(i < array.length-2){
-                System.out.print(i+", ");
+                System.out.print(array[i]+", ");
             }else{
                 System.out.print(i+"}");
             }
