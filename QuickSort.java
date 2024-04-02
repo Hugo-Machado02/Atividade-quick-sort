@@ -53,7 +53,7 @@ public class QuickSort {
             if(i < array.length-2){
                 System.out.print(array[i]+", ");
             }else{
-                System.out.print(i+"}");
+                System.out.print(array[i]+"}");
             }
         }
     } 
